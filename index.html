@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="vh-100">
+    <nav class="navbar navbar-dark  myNavBar py-4 navbar-expand-lg bg-body-tertiary">
+      <div class="container w-75">
+        <a class="navbar-brand" href="#" class="">
+          <div class="d-flex justify-content-center align-items-center text-center">
+              <img src="./images/logo2x.png" class="logoImage me-2" alt=""/>
+              <div class="pt-3"> <!--d msh mazbota-->
+                  <h1 class="h6">Weather</h1>
+                  <p class="logoP">tagline goes here</p>
+              </div>
+
+          </div>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav myUl align-items-center ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a class="nav-link myActive active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">News</a>
+            </li>
+
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">Live cameras</a>
+            </li>
+
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">Photos</a>
+            </li>
+
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mt-5 myFormControlDiv position-relative  w-75 mx-auto">
+      <input type="text" class="form-control myFormControl  findInput" placeholder="Find your loacation...">
+      <button class="position-absolute btn btn-primary rounded-pill findButton">find</button>
+    </div>
+
+    
+    <div class="container   mt-5">
+      <div class="row g-0">
+        <div class="col-lg-4 ">
+
+          <div class="title d-flex px-2 justify-content-between">
+
+          </div>
+          <div class="theWeatherDiv ps-3">
+
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+
+          <div class="forecastTitle1 d-flex justify-content-center px-2 ">
+            
+          </div>
+          <div class=" forcastDay1 ps-3 text-center">
+
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+
+          <div class="forecastTitle2 d-flex justify-content-center px-2 ">
+          </div>
+          <div class=" forcastDay2 ps-3 text-center">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <footer>
+    <div class="container">
+      <div class="row  py-5  ">
+        <div class="col-lg-8 ">
+          <div class=" myFormControlDiv subscribeDiv position-relative   ">
+            <input type="text" class="form-control myFormControl findInput" placeholder="Enter your email to subscribe...">
+            <button class="position-absolute btn btn-primary rounded-pill subscribeButton">subscribe</button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 pt-2 offset-1 ">
+          <ul class="  d-flex  list-unstyled">
+            <li>
+              <div class="icon me-2 rounded-circle d-flex justify-content-center align-items-center">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                
+              </div>
+            </li>
+      
+            <li>
+              <div class="icon me-2 rounded-circle d-flex justify-content-center align-items-center">
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>          
+                 
+              </div>
+            </li>
+      
+            <li>
+              <div class="icon me-2 rounded-circle d-flex justify-content-center align-items-center">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                
+              </div>
+            </li>
+      
+            <li>
+              <div class="icon me-2 rounded-circle d-flex justify-content-center align-items-center">
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+    
+      </div>
+      <p class=" mb-0 pb-5 text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+
+
+  </footer>
+
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
